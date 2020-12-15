@@ -1,5 +1,6 @@
 html {
      background-color: papayawhip;
+     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .container {
@@ -7,39 +8,61 @@ html {
 }
 
 #wave {
+     position: relative;
      margin-left: 35px;
      width: 95%;
      height: auto;
 }
 
-.textblock1 {
+.textBlock1 {
      position: absolute;
      text-align: right;
-     top: 200px;
-     right: 100px;
-     background-color: white;
+     top: 250px;
+     right: 150px;
+     background-color: papayawhip;
      color: black;
+     padding: 10px;
+     border: 2px solid black;
 }
 
-.textblock2 {
+.textBlock2 {
      position: absolute;
      text-align: right;
      top: 500px;
-     right: 100px;
-     background-color: white;
+     right: 150px;
+     background-color: papayawhip;
      color: black;
+     padding: 10px;
+     border: 2px solid black;
 }
 
-.textblock3 {
+.textBlock3 {
      position: absolute;
      text-align: right;
      bottom: 100px;
-     right: 100px;
-     background-color: white;
+     right: 150px;
+     background-color: papayawhip;
      color: black;
+     padding: 10px;
+     border: 2px solid black;
 }
 
 .poem-text {
-     font-family: Arial, Helvetica, sans-serif;
-     font-weight: bold;
+     font-weight: 500;
+}
+
+h3 {
+     padding: 10px;
+     font-weight: 600;
+}
+
+.titleBlock {
+     position: absolute;
+     top: 75px;
+     left: 175px;
+     text-align: center;
+     background-color: papayawhip;
+     color: black;
+     padding: 10px;
+     border: 2px solid black;
 }
