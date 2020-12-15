@@ -39,7 +39,7 @@ footer {
 .textBlock2 {
      position: absolute;
      text-align: right;
-     top: 500px;
+     top: 565px;
      right: 150px;
      background-color: papayawhip;
      color: black;
@@ -76,7 +76,7 @@ footer {
      margin: 20px 40px;
      padding: 20px;
      border: 5px double black;
-     background-color: crimson;
+     background-color: palevioletred;
 }
 .outro {
      text-align: right;
@@ -86,5 +86,5 @@ footer {
      margin: 20px 40px 40px;
      padding: 20px;
      border: 5px double black;
-     background-color: crimson;
+     background-color: palevioletred;
 }
